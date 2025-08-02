@@ -2,11 +2,11 @@
 
 A comprehensive algorithmic trading system that combines fast C++ technical indicators with Python neural networks to improve trading signals. This project demonstrates the power of hybrid approaches in algorithmic trading.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This system uses **three technical indicators** (MACD, RSI, Supertrend) to generate trading signals, then employs a **Neural Network** to filter and improve these signals, resulting in significantly better performance than pure technical strategies.
 
-## 📊 Performance Results
+##  Performance Results
 
 | Strategy | Success Rate | Per-Trade Return | Total Trades | Total Return |
 |----------|-------------|------------------|--------------|--------------|
@@ -17,13 +17,13 @@ This system uses **three technical indicators** (MACD, RSI, Supertrend) to gener
 
 **Neural Network Improvement**: +115.1% total return over best pure strategy!
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 - **Python 3.8 or higher**
 - **C++ compiler** (Visual Studio on Windows, GCC on Linux)
 - **Git** (optional, for cloning)
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Step 1: Create Virtual Environment
 
@@ -83,7 +83,7 @@ stockMarketAnalysis-usingNN/
 └── 📄 setup.py                 # Pybind11 build configuration
 ```
 
-## 🎯 How to Run the Project
+##  How to Run the Project
 
 ### Complete Pipeline (Recommended)
 
@@ -129,7 +129,7 @@ python src/python/test.py
 - Analyzes performance metrics
 - Displays comparison results
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### C++ Strategies
 - **MACD**: Moving Average Convergence Divergence with EMA12-EMA26 crossover
@@ -152,12 +152,12 @@ Input Features (9 dimensions):
 └── Strategy signals (MACD, RSI, Supertrend BUY signals)
 ```
 
-## 📈 Expected Output
+##  Expected Output
 
 After running the complete pipeline, you'll see:
 
 ```
-📋 Test Results:
+ Test Results:
 
 MACD:
 Success Rate: 33.33%,
@@ -183,10 +183,10 @@ Per-Trade Return: 0.0045,
 Total Trades: 184,
 Total Return: 0.8361
 
-✅ Testing completed!
+ Testing completed!
 ```
 
-## 🛠️ Troubleshooting
+## 🛠 Troubleshooting
 
 ### Common Issues
 
@@ -208,7 +208,7 @@ Total Return: 0.8361
 - **Test Data**: `data/reliance_test.csv` (required)
 - **Generated Files**: Created automatically during execution
 
-## 🎓 Learning Objectives
+##  Learning Objectives
 
 This project demonstrates:
 - **C++/Python Integration** using pybind11
