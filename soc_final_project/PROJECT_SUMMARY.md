@@ -1,4 +1,4 @@
-# Stock Market Analysis using C++ with python libraries
+# Trade Smarter: Learn to Build a Stock Strategy with ML + C++
 
 ##  Project Overview
 
