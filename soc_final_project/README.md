@@ -186,7 +186,7 @@ Total Return: 0.8361
  Testing completed!
 ```
 
-## 🛠 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
