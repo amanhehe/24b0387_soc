@@ -1,10 +1,10 @@
 # Stock Market Analysis with Neural Networks - Technical Summary
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a **hybrid algorithmic trading system** that combines the speed of C++ technical indicators with the learning capabilities of Python neural networks. The system demonstrates how machine learning can significantly improve traditional technical analysis strategies.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### High-Level Design
 ```
@@ -21,7 +21,7 @@ This project implements a **hybrid algorithmic trading system** that combines th
                        └─────────────────┘    └─────────────────┘
 ```
 
-## 🔧 Technical Implementation Details
+##  Technical Implementation Details
 
 ### 1. Data Processing Pipeline
 
@@ -211,7 +211,7 @@ def calculate_trades(self, signals):
     return trades
 ```
 
-## 🧠 Neural Network Logic
+##  Neural Network Logic
 
 ### Why Neural Networks Work Better
 
@@ -227,7 +227,7 @@ def calculate_trades(self, signals):
 4. **Model Training**: 200 epochs with early stopping
 5. **Validation**: Test on 5 years of unseen data
 
-## 📊 Performance Analysis
+##  Performance Analysis
 
 ### Strategy Comparison
 
@@ -245,7 +245,7 @@ def calculate_trades(self, signals):
 3. **Risk Management**: Good success rate with more trades
 4. **Consistency**: Balanced risk-reward profile
 
-## 🔄 Complete Workflow
+##  Complete Workflow
 
 ### Step 1: Feature Engineering
 ```python
@@ -310,7 +310,7 @@ analyzer = TradingAnalyzer(test_data, {
 results = analyzer.analyze_all_strategies()
 ```
 
-## 🎯 Key Innovations
+##  Key Innovations
 
 1. **Hybrid Architecture**: C++ speed + Python flexibility
 2. **Position Management**: Proper BUY/SELL logic
@@ -318,7 +318,7 @@ results = analyzer.analyze_all_strategies()
 4. **Neural Network Enhancement**: ML-based signal filtering
 5. **Comprehensive Analysis**: Multiple performance metrics
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 1. **Additional Features**: Market sentiment, volatility indicators
 2. **Advanced Models**: LSTM, Transformer architectures
@@ -326,7 +326,7 @@ results = analyzer.analyze_all_strategies()
 4. **Portfolio Management**: Multi-asset, risk allocation
 5. **Visualization**: Interactive charts and trade analysis
 
-## 📈 Conclusion
+##  Conclusion
 
 This project successfully demonstrates how machine learning can enhance traditional technical analysis. The neural network approach achieves **115.1% better total return** than the best pure strategy while maintaining a good success rate and generating more trading opportunities.
 
