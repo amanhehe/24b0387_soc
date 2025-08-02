@@ -1,4 +1,4 @@
-# Stock Market Analysis with Neural Networks - Technical Summary
+# Stock Market Analysis using C++ with python libraries
 
 ##  Project Overview
 
